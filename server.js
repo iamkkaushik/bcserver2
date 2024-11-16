@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://bc-murex.vercel.app",
+    origin: "https://www.bhadracottage.in",
     methods: ["GET", "POST", "DELETE", "PUT"],
     // allowedHeaders: [
     //   "Content-Type",
